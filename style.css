@@ -727,6 +727,10 @@ form button {
     font-weight: 900;
 }
 
+.hamburger {
+    display: none;
+}
+
 @media screen and (max-width: 576px) {
 
     .header-container,
@@ -742,17 +746,16 @@ form button {
     }
 
     .nav-bar {
-        flex-direction: column;
-        align-items: start;
+        flex-direction: row;
+        align-items: center;
     }
 
     .menu {
-        margin-top: 1rem;
-        flex-direction: column;
-        width: unset;
-        height: unset;
-        padding: .5rem;
-        border-radius: 2rem;
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        color: white;
     }
 
     .header-info {
@@ -807,16 +810,20 @@ form button {
 
     .extra-mile {
         margin-top: 2rem;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .extra-mile-text-button {
         width: unset;
         margin-left: 0;
     }
-
+    .extra-mile-text-button button {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
     .extra-mile-image {
         width: 100%;
+        height: 12rem;
     }
 
     .extra-mile-text-button h1 {
