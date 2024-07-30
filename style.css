@@ -427,11 +427,7 @@ header {
     line-height: 1.5rem;
 }
 
-form table {
 
-    width: 100%;
-
-}
 
 .chart table {
     margin-top: 2rem;
@@ -462,7 +458,12 @@ form table th {
 
     border-radius: 0.8rem;
     background-color: rgb(78, 78, 78);
-    border: 5px solid rgb(34, 34, 34);
+    border: none;
+}
+
+form table {
+    border-spacing: 0.8rem;
+    width: 100%;
 }
 
 input,
@@ -901,6 +902,10 @@ footer {
     .form {
         margin-top: 2rem;
         width: unset;
+    }
+
+    form table {
+        margin-left: -10px;
     }
 
     input {
