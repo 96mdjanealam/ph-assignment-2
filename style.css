@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family: 'Miama';
+    src: url('images/Miama.otf');
+}
 
 * {
     box-sizing: border-box;
@@ -87,6 +91,12 @@ header {
     font-size: 4.5rem;
     margin-bottom: 1.2rem;
     max-width: 30rem;
+    line-height: 120%;
+}
+.shape-txt {
+    font-family: 'Miama';
+    font-weight: 400;
+    font-size: 8rem;
 }
 
 .textandbutton p {
@@ -354,6 +364,7 @@ header {
 .our-team-text h1 {
     font-weight: 900;
     font-size: 3rem;
+    text-align: center;
 }
 
 .our-team-text p {
@@ -409,9 +420,11 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 15rem;
     border-radius: 1rem;
     position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    overflow: hidden;
 }
 
 .image-blocks div p:nth-of-type(1) {
@@ -598,7 +611,12 @@ form table {
 }
 
 .chart table {
+    margin-top: 2rem;
     border-collapse: collapse;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 200;
+    letter-spacing: 0.05rem;
 }
 
 td,
@@ -767,7 +785,13 @@ form button {
     }
 
     .textandbutton {
+        margin-top: 1rem;
         width: unset;
+    }
+    .shape-txt {
+        font-family: 'Miama';
+        font-weight: 400;
+        font-size: 5rem;
     }
 
     .textandbutton p {
@@ -796,7 +820,7 @@ form button {
     }
 
     .change-habit {
-        margin-top: 32rem;
+        margin-top: 20rem;
     }
 
     .change-habit .text p {
@@ -819,7 +843,7 @@ form button {
     }
     .extra-mile-text-button button {
         margin-top: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
     .extra-mile-image {
         width: 100%;
@@ -828,7 +852,7 @@ form button {
 
     .extra-mile-text-button h1 {
         font-size: 2rem;
-        margin-top: 2rem;
+        margin-top: 0;
         width: 100%;
     }
 
@@ -843,6 +867,9 @@ form button {
 
     .bmi-calculator-text p {
         width: unset;
+    }
+    .form p {
+        margin-top: 1rem;
     }
 
     .chart-and-form {
