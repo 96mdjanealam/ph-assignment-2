@@ -308,12 +308,13 @@ header {
 
 .extra-mile-image {
     width: 25rem;
-    height: 25rem;
+    height: 40rem;
     background-image: url('images/run.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
+    overflow: hidden;
 }
 
 .extra-mile-text-button h1 {
