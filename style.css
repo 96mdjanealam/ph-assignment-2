@@ -462,6 +462,7 @@ form table th {
 }
 
 form table {
+    margin-left: -0.8rem;
     border-spacing: 0.8rem;
     width: 100%;
 }
